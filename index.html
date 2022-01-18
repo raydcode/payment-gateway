@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container box">
+        <div class="payment">
+         
+          <div class="header">
+            <h1 class="logo">Pay</h1>
+            <p>rayDcode</p>
+          </div>
+          
+          <div class="content">
+            <div class="amount">
+              <p>INR <span>1500.00</span></p>
+              <span>raydcode@gmail.com</span>
+            </div>
+            <form action="" autocomplete="off">
+              <div class="card-details">
+              
+                <div class="number">
+                  <label for="">Card Number</label>
+                  <input
+                    type="text"
+                    id="number"
+                    placeholder="0000 0000 0000 0000"
+                  />
+                  <img src="./images/credit-card.png" alt="" />
+                </div>
+            
+                <div class="valid">
+                  <label for="">Valid Till</label>
+                  <input type="text" id="valid" placeholder="MM / YY" />
+                </div>
+                
+                <div class="cvv">
+                  <label for="">CVV</label>
+                  <input type="text" id="cvv" placeholder="123" />
+                  <span>What is this?</span>
+                </div>
+              </div>
+             
+              <div class="remember">
+                <input type="checkbox" />
+                <span> Remember this card next time</span>
+              </div>
+              
+              <div class="button">
+                <button class="btn">Pay $100.00</button>
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+       
+        <div class="secure">
+          <i class="fas fa-lock"></i>
+          <span>Secured by VISA</span>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
